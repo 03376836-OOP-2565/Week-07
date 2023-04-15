@@ -58,6 +58,7 @@ namespace Week7_Lab1
 
 
 ### บันทึกผล
+![image](https://user-images.githubusercontent.com/115066208/232233643-8ba29901-a5b6-4c9c-b9a3-a2597b0d30b0.png)
 
 
 
@@ -109,3 +110,4 @@ static void Main(string[] args)
 ```
 
 ### บันทึกผล
+![image](https://user-images.githubusercontent.com/115066208/232233839-495f1e22-b070-4245-9196-feb51b20db78.png)
