@@ -60,7 +60,7 @@ namespace Week7_Lab1
 
 ### บันทึกผล
 
-
+![ภาพ](https://user-images.githubusercontent.com/112167732/232374150-e1ef9e7d-6e97-43ce-979c-8bcce4cbce51.png)
 
 
 ---
@@ -110,3 +110,8 @@ static void Main(string[] args)
 ```
 
 ### บันทึกผล
+![ภาพ](https://user-images.githubusercontent.com/112167732/232376567-d7b7b706-efc9-4ff0-a824-ac5457523788.png)
+![ภาพ](https://user-images.githubusercontent.com/112167732/232376649-18fe2f1f-bc71-45ba-b355-37de3a5769cb.png)
+![ภาพ](https://user-images.githubusercontent.com/112167732/232376707-f3a3b5ad-f375-4ef5-8d02-761102b0e0bd.png)
+![ภาพ](https://user-images.githubusercontent.com/112167732/232376738-56e4f5d3-29d3-49ee-8863-ca7a3010b173.png)
+![ภาพ](https://user-images.githubusercontent.com/112167732/232376760-27d3ceed-9285-49e9-9957-95c8db9ad1a7.png)
