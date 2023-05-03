@@ -58,6 +58,7 @@ namespace Week7_Lab1
 
 
 ### บันทึกผล
+![](./Picture/Screenshot%202566-04-19%20at%2023.41.03/Lab7_16.png)
 
 
 
@@ -109,3 +110,108 @@ static void Main(string[] args)
 ```
 
 ### บันทึกผล
+```cs
+using System;
+
+namespace ConsoleApp
+{
+    class Student
+    {
+        private string studentID;
+        private string name;
+        private int age;
+        private string major;
+        private string school;
+        private float gpa;
+
+        public string StudentID
+        {
+            get { return studentID; }
+            set { studentID = value; }
+        }
+
+        public string Name
+        {
+            get { return name; }
+            set { name = value; }
+        }
+
+        public int Age
+        {
+            get { return age; }
+            set { age = value; }
+        }
+
+        public string Major
+        {
+            get { return major; }
+            set { major = value; }
+        }
+
+        public string School
+        {
+            get { return school; }
+            set { school = value; }
+        }
+
+        public float GPA
+        {
+            get { return gpa; }
+            set { gpa = value; }
+        }
+
+        public void TellStudentID()
+        {
+            Console.WriteLine("Student ID: " + studentID);
+        }
+
+        public void TellName()
+        {
+            Console.WriteLine("Name: " + name);
+        }
+
+        public void TellAge()
+        {
+            Console.WriteLine("Age: " + age);
+        }
+
+        public void TellMajor()
+        {
+            Console.WriteLine("Major: " + major);
+        }
+
+        public void TellSchool()
+        {
+            Console.WriteLine("School: " + school);
+        }
+
+        public void TellGPA()
+        {
+            Console.WriteLine("GPA: " + gpa);
+        }
+    }
+
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            var student1 = new Student();
+            student1.Name = "Pattanasak Chaonchom";
+            student1.Age = 20;
+            student1.Major = "Engineering Education";
+            student1.School = "King Mongkut's Institute of Technology Ladkrabang";
+            student1.GPA = 3.5f;
+            student1.StudentID = "64030131";
+
+            // เรียกใช้งานวัตถุ
+            student1.TellName();
+            student1.TellAge();
+            student1.TellMajor();
+            student1.TellSchool();
+            student1.TellGPA();
+            student1.TellStudentID();
+        }
+    }
+}
+```
+![](./Picture/Screenshot%202566-04-19%20at%2023.41.03/Lab7_17.png)
