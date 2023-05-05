@@ -58,7 +58,7 @@ namespace Week7_Lab1
 
 
 ### บันทึกผล
-
+![image](https://user-images.githubusercontent.com/115066298/236549655-df16f41d-ac29-40ff-9729-7fa3796428a3.png)
 
 
 
@@ -95,17 +95,108 @@ namespace Week7_Lab1
 ### 1.2  ทดสอบโดยเขียน Code ใน Main() ดังต่อไปนี้
 
 ```cs
-static void Main(string[] args)
-{
-    var student1 = new Student();
-    student1.Name = "ชื่อของนักศึกษาเอง";
-    student1.Age = อายุ;
-    // ..... เขียนให้ครบทุก properties
+using System;
 
-    // เรียกใช้งานวัตถุ
-    student1.TellName();
-    // ..... เรียกใช้ให้ครบทุก method
+namespace ConsoleApp16
+{
+    internal class Program
+    {
+        public class Student
+        {
+            private string studentID;
+            private string name;
+            private int age;
+            private string major;
+            private string school;
+            private float gpa;
+
+            public string StudentID
+            {
+                get { return studentID; }
+                set { studentID = value; }
+            }
+
+            public string Name
+            {
+                get { return name; }
+                set { name = value; }
+            }
+
+            public int Age
+            {
+                get { return age; }
+                set { age = value; }
+            }
+
+            public string Major
+            {
+                get { return major; }
+                set { major = value; }
+            }
+
+            public string School
+            {
+                get { return school; }
+                set { school = value; }
+            }
+
+            public float GPA
+            {
+                get { return gpa; }
+                set { gpa = value; }
+            }
+
+            public void TellStudentID()
+            {
+                Console.WriteLine("Student ID: " + studentID);
+            }
+
+            public void TellName()
+            {
+                Console.WriteLine("Name: " + name);
+            }
+
+            public void TellAge()
+            {
+                Console.WriteLine("Age: " + age);
+            }
+
+            public void TellMajor()
+            {
+                Console.WriteLine("Major: " + major);
+            }
+
+            public void TellSchool()
+            {
+                Console.WriteLine("School: " + school);
+            }
+
+            public void TellGPA()
+            {
+                Console.WriteLine("GPA: " + gpa);
+            }
+        }
+        static void Main(string[] args)
+        {
+            var student1 = new Student();
+            student1.Name = "Siracha";
+            student1.Age = 20;
+            student1.StudentID = "192";
+            student1.Major = "Computer";
+            student1.School = "KMITL";
+            student1.GPA = 4.00f;
+
+            student1.TellName();
+            student1.TellAge();
+            student1.TellStudentID();
+            student1.TellMajor();
+            student1.TellSchool();
+            student1.TellGPA();
+        }
+
+    }
 }
 ```
 
 ### บันทึกผล
+![image](https://user-images.githubusercontent.com/115066298/236550428-def52f57-4728-4504-a79f-3db09274206b.png)
