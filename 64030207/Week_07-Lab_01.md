@@ -123,12 +123,12 @@ namespace Week7_Lab1
         static void Main(string[] args)
         {
             var student1 = new Student();
-            student1.StudentID = 64030161;
-            student1.Name = "Rachata Supanurak";
+            student1.StudentID = 64030207;
+            student1.Name = "Sittinon Sawatdemongkol";
             student1.Age = 20;
             student1.Major = "Computer";
             student1.University = "KMITL";
-            student1.GPA = 3.4;
+            student1.GPA = 3.02;
             // ..... เขียนให้ครบทุก properties
 
             // เรียกใช้งานวัตถุ
@@ -210,6 +210,7 @@ namespace Week7_Lab1
         }
     }
 }
+
 
 ```
 
