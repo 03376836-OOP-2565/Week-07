@@ -59,7 +59,7 @@ namespace Week7_Lab1
 
 ### บันทึกผล
 
-![image](https://user-images.githubusercontent.com/115066261/229278035-dc6ebe73-785b-4f8f-8656-2bf641397362.png)
+![ภาพ](https://github.com/Sittinon-Sawatdemongkol/Week-07/assets/115066278/4262c1bd-3d7c-495f-a9c5-5a2df7bdca9c)
 
 ---
 
@@ -213,5 +213,4 @@ namespace Week7_Lab1
 
 ```
 
-![image](https://user-images.githubusercontent.com/115066261/229278926-57588af7-889c-4b03-986f-06b344365f67.png)
-
+![ภาพ](https://github.com/Sittinon-Sawatdemongkol/Week-07/assets/115066278/014e2e2d-4747-48c9-8157-9c801ae712ce)
